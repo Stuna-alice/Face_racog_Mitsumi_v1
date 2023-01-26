@@ -18,17 +18,20 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               //Image icon
-              Icon(Icons.phone_android_rounded, size: 80),
+              //Icon(Icons.phone_android_rounded, size: 80),
               //WELCOME screen
-              Text('Minebea  Mitsumi',
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 30,
-                      color: Colors.blue)),
 
-              Text('Welcome Back',
-                  style: TextStyle(
-                      color: Colors.red, fontWeight: FontWeight.bold)),
+              Image(image: AssetImage('assets/mitsumi.png')),
+
+              // Text('Facial Recognition',
+              //  style: TextStyle(
+              //      fontWeight: FontWeight.bold,
+              ///      fontSize: 30,
+              //     color: Colors.blue)),
+
+              // Text('Welcome Back',
+              //     style: TextStyle(
+              //        color: Colors.red, fontWeight: FontWeight.bold)),
 
               SizedBox(
                 //space between title
